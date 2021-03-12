@@ -12,7 +12,7 @@ class config():
     wrong_path = '/home/interns/camelyon17/dataset/pre_dataset/difficult/'
     heatmap_path = '/home/interns/test/heatmap/DenseNet121_2/'
 
-    origin_path  = '/home/interns/camelyon17'
+    origin_path  = '/hpc/dla_patho/camelyon/data/CAMELYON17'
     xml_path = '/mnt/disk3/interns/camelyon17/pre_dataset/annotation/'
     slide_path = '/mnt/disk3/interns/camelyon17/pre_dataset/slide/'
     mask_path = '/home/interns/dataset/pre_dataset/mask/'
@@ -64,7 +64,7 @@ class hyperparameter():
     weight_decay = 5e-4 # SGD optimizer parameter, 'weight_decay'
     
     epoch = 2           # train epoch
-    batch_size = 250    # batch size (with using 8 Titan X GPU, 250 is limitation) 
-    num_workers = 40    # number of CPU 
+    batch_size = 16    # batch size (with using 8 Titan X GPU, 250 is limitation) 
+    num_workers = 4    # number of CPU 
     mining = False      # train using hard mining set (on/off)
     wrong_save = False  # collect hard mining dataset (on/off)
