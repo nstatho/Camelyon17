@@ -8,22 +8,22 @@ class config():
 
     '''
     
-    result_path = '/home/interns/camelyon17/result/'
-    wrong_path = '/home/interns/camelyon17/dataset/pre_dataset/difficult/'
-    heatmap_path = '/home/interns/test/heatmap/DenseNet121_2/'
+    result_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/result/'
+    wrong_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/dataset/pre_dataset/difficult/'
+    heatmap_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/test/heatmap/DenseNet121_2/'
 
-    origin_path  = '/home/interns/camelyon17'
-    xml_path = '/mnt/disk3/interns/camelyon17/pre_dataset/annotation/'
-    slide_path = '/mnt/disk3/interns/camelyon17/pre_dataset/slide/'
-    mask_path = '/home/interns/dataset/pre_dataset/mask/'
-    patch_path = '/mnt/disk3/interns/camelyon17/pre_dataset/patch/'
-    dataset_path = '/mnt/disk3/interns/camelyon17/pre_dataset/dataset/'
-    mining_csv_path = '/home/interns/camelyon17/dataset/pre_dataset/difficult/'
+    origin_path  = '/hpc/dla_patho/camelyon/CAMELYON17'
+    xml_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/pre_dataset/annotation/'
+    slide_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/pre_dataset/slide/'
+    mask_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/dataset/pre_dataset/mask/'
+    patch_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/pre_dataset/patch/'
+    dataset_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/pre_dataset/dataset/'
+    mining_csv_path = '//hpc/dla_patho/camelyon/data/CAMELYON17/dataset/pre_dataset/difficult/'
 
-    test_path = '/home/interns/camelyon17/dataset/dataset/test0201/'
+    test_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/dataset/dataset/test0201/'
 
     #dataset_eval.py
-    demo_slide_path = '/mnt/disk3/interns/camelyon17/dataset/t_6.tif'
+    demo_slide_path = '/hpc/dla_patho/camelyon/data/CAMELYON17/dataset/t_6.tif'
 
 
 
